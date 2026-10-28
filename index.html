@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sumit Kumar — BTech student & builder</title>
+<meta name="description" content="Portfolio of Sumit Kumar, a BTech student building things for the web.">
+<meta name="theme-color" content="#0B1020">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+
+<header class="nav">
+  <a href="#top" class="logo">sumit.</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#path">Journey</a>
+    <a href="#contact" class="pill">Say hello</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="hero-kicker">BTech student · web developer</p>
+    <h1 class="hero-name" aria-label="Sumit Kumar">
+      <span class="line"><span>Sumit</span></span>
+      <span class="line"><span class="grad">Kumar</span></span>
+    </h1>
+    <p class="hero-sub">I turn curiosity into clean, fast and slightly playful things on the web.</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><i></i></div>
+  </section>
+
+  <section id="about" class="wrap about">
+    <div class="about-img reveal">
+      <img src="https://picsum.photos/seed/sumit-portrait/700/820" alt="Placeholder portrait" loading="lazy">
+      <span class="blob"></span>
+    </div>
+    <div class="about-text">
+      <h2 class="reveal">Learning in public, shipping in private first.</h2>
+      <p class="reveal">I'm a BTech student who likes the space between engineering and design. I enjoy turning a rough idea into something people can click, scroll and actually use.</p>
+      <p class="reveal">When I'm not in lectures I'm building side projects, solving problems on coding platforms and picking up whatever tool makes the next project better.</p>
+      <div class="stats reveal">
+        <div><b data-count="12">0</b><span>projects built</span></div>
+        <div><b data-count="6">0</b><span>technologies used</span></div>
+        <div><b data-count="3">0</b><span>hackathons joined</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap">
+    <h2 class="reveal">Tools I reach for</h2>
+    <div class="skills">
+      <div class="skill reveal" data-c="v"><h3>Front end</h3><p>HTML, CSS, JavaScript, React, Three.js</p><div class="bar"><i style="--w:88%"></i></div></div>
+      <div class="skill reveal" data-c="c"><h3>Back end</h3><p>Node.js, Express, REST APIs, SQL</p><div class="bar"><i style="--w:72%"></i></div></div>
+      <div class="skill reveal" data-c="p"><h3>Core CS</h3><p>Data structures, algorithms, OOP, C++ and Python</p><div class="bar"><i style="--w:80%"></i></div></div>
+      <div class="skill reveal" data-c="v"><h3>Workflow</h3><p>Git, GitHub, Linux, deploying static and web apps</p><div class="bar"><i style="--w:78%"></i></div></div>
+    </div>
+  </section>
+
+  <section id="work" class="wrap">
+    <h2 class="reveal">Selected projects</h2>
+    <div class="projects">
+      <article class="card reveal">
+        <div class="thumb"><img src="https://picsum.photos/seed/campus-hub/800/560" alt="Campus Hub project preview" loading="lazy"></div>
+        <div class="card-body"><h3>Campus Hub</h3><p>A single place for class timetables, notes and event updates.</p><small>JavaScript · Node.js</small></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><img src="https://picsum.photos/seed/pulse-board/800/560" alt="Pulse Board project preview" loading="lazy"></div>
+        <div class="card-body"><h3>Pulse Board</h3><p>A live dashboard that turns raw CSV data into readable charts.</p><small>React · D3</small></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><img src="https://picsum.photos/seed/orbit-notes/800/560" alt="Orbit Notes project preview" loading="lazy"></div>
+        <div class="card-body"><h3>Orbit Notes</h3><p>A distraction-free note app with tags, search and offline support.</p><small>HTML · CSS · JS</small></div>
+      </article>
+      <article class="card reveal">
+        <div class="thumb"><img src="https://picsum.photos/seed/route-wise/800/560" alt="RouteWise project preview" loading="lazy"></div>
+        <div class="card-body"><h3>RouteWise</h3><p>Finds the shortest path between campus buildings using graph search.</p><small>Python · Algorithms</small></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="path" class="wrap">
+    <h2 class="reveal">Journey so far</h2>
+    <ol class="timeline">
+      <li class="reveal"><time>Now</time><div><h3>BTech, Computer Science</h3><p>Deepening my base in systems, algorithms and software design.</p></div></li>
+      <li class="reveal"><time>Last year</time><div><h3>First hackathon</h3><p>Built a working prototype in 24 hours with a team of four.</p></div></li>
+      <li class="reveal"><time>Before that</time><div><h3>Wrote my first web page</h3><p>A plain HTML file that I still think about every time I start a project.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <h2 class="reveal">Let's build something.</h2>
+    <p class="reveal">Open to internships, collaborations and good conversations.</p>
+    <a class="btn primary big reveal" href="mailto:sk622275@gmail.com">sk622275@gmail.com</a>
+    <div class="social reveal">
+      <a href="https://github.com/sk622275-cloud" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer><p>© <span id="yr"></span> Sumit Kumar. Built with plain HTML, CSS and JS.</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
